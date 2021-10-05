@@ -387,3 +387,21 @@ Q #27) What is Microdata in HTML5?
 
 Answer: Microdata is a new simple semantic syntax, that is used to add the nested groups of name and value pair of data to documents, that are commonly based on the page content. Microdata is used for new global attributes.
  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q #28) Explain some of the common lists to design a web page.
+
+Answer: The common lists to design a web page include:
+
+Directory list
+Definition list
+Ordered list
+Menu list
+Unordered list
+Different– Different tags are used to compose each list.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q #29) What is the use of output tag in HTML5?
+
+Answer: <output> tag is used to represent the different types of output and result.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q #30) Which element provides the autocomplete feature in a textbox?
+
+Answer: In HTML5 <Datalist> element, provides the autocomplete feature in a textbox.
