@@ -159,12 +159,7 @@ Q #13) What are the various formatting tags in HTML5?
 Answer: HTML5 has some old and new formatting tags as given below:
 
 Marked text: Represents highlighted text for Reference purposes. We can use <marks> tags for text highlight.
-Deleted text: Specifies the deleted block of text. We can use <del> tags to implement a deleted text.
-Emphasized text: Defines the emphasized text. We can use <em> tags to implement an emphasized text.
-Inserted text: Inserts a block of text into a document. We can use <ins> tags to implement an inserted text.
-Small text: Display inserted text in a small size. We can use <small> tags to implement a small text.
-Superscript text: This is a superscripted text. We can use <sup> tags to implement a superscript text.
-Subscript text: This is a subscripted text. We can use <sub> tags to implement a superscript text.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q #14) Why do we use HTML5?
 
@@ -339,100 +334,56 @@ Constraint Validation API
 Command API
 Text Track API
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #23) How many tags were removed in HTML5?
+Q #23) Explain Meta tags.
 
-Answer: The list of the tags that are removed completely in HTML5 include:
+Answer: Meta tags are used to provide useful information to our web pages.
 
-<frame>
-<frameset>
-<noframes>
-<big>
-<basefront>
-<applet>
-<center>
-<bigcenter>
-<acronym>
-<basefont>
-<dir>
-<tt>
-<font>
-<strike>
+Some of the tags include:
+
+Title: Provides a title to the web page.
+Style: Inserts some styles and CSS details to the web page.
+Link: Defines the relationship between one page to another page and an external source.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #24) Which video and audio formats are used for embedding on web page?
+ Q #24) What are the part of HTML5 Technologies?
 
-Answer: Formats of video and audio that are used for embedding on the web page are given below:
+Answer: List is given below:
 
-Video: MPEG4, Ogg, WebM.
-Audio: WAV, Ogg Vorbis, MP3.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #25) List out the page structure elements of HTML5.
-
-Answer: Page structure elements of HTML5 are given below:
-
-<header>: Represents the header section and stores the starting information about the web page.
-<footer>: Represents the footer section (last portion) of the page.
-<nav>: Represents the navigation elements of the HTML page.
-<article>: It is a set of information.
-<section>: It is a set of instructions that is used inside the article block to define the basic structure of a page.
-<aside>: Sidebar content of the page.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #26) Explain some of the common lists to design a web page.
-
-Answer: The common lists to design a web page include:
-
-Directory list
-Definition list
-Ordered list
-Menu list
-Unordered list
-Different– Different tags are used to compose each list.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #27) What is the use of output tag in HTML5?
-
-Answer: <output> tag is used to represent the different types of output and result.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #28) Which element provides the autocomplete feature in a textbox?
-
-Answer: In HTML5 <Datalist> element, provides the autocomplete feature in a textbox.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #29) How to Embed Video and Audio in Html5?
+Web Workers
+Web Storage
+SVG
+CSS3
+Server-Sent Events(SSE)
+Microdata
+Web Intents
+Web Sockets
+Offline Application
+Geolocation
+File API
+Web Messaging
+Drag and Drop
+Canvas 2D
+ -------------------------------------------------------------------------------------------------------------------------------------------------------
+Q #25) What is the difference between SVG and Canvas elements?
 
 Answer:
 
-Video:
+SVG	Canvas elements
+It is Object Model-based.	It is pixel based.
+Is suitable for using large rendering areas.	Is suitable for using small rendering areas.
+SVG provides any support for event handlers .	Canvas does not provide any recourse for event handlers.
+Modification is allowed through script and CSS. 	Modification is allowed through script only.
+SVG has Better scalability	Canvas has poor scalability.
+SVG is Vector based (composed of shapes).	 Canvas is Raster based (composed of a pixel).
+SVG is not suitable for Games graphics.	Canvas is suitable for games graphics.
+SVG does not depend on resolution.	Canvas is completely dependent on resolution.
+SVG is capable for API animation. 	Canvas has no any API for animation.
+SVG is suitable for printing with high quality and any resolution.	Canvas is not suitable for printing high quality and high resolution.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q #26) What is the use of <figure> tag in HTML5?
 
-Example to Embed a video in HTML5:
+Answer: The figure tag is used to add an image in the document on a web page.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q #27) What is Microdata in HTML5?
 
-<!DOCTYPE html>
-<html>
-<body>
-<video width = “300” height = “250” controls>
-<source src = “MyMovie.mp4” type = “video/mp4”>
-</video>
-</body>
-</html>
-Audio:
-
-Example to Embed an Audio in HTML5:
-
-<!DOCTYPE html>
-<html>
-<body>
-<audio controls>
-<source src = “song.mp3” type = “audio/mpeg”>
-</audio>
-</body>
-</html>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q #30) What are the migrated tags from HTML4 to HTML5?
-
-Answer: List of the migrated tags from HTML4 to HTML5 are given below:
-
- Typical HTML4            Typical HTML5
-
-<div id = “footer”>                <footer>
-<div id = “header”>              <header>
-<div id = “menu”>                <nav>
-<div id = “post”>                   <article>
-<div id = “content”>            <section>
-
+Answer: Microdata is a new simple semantic syntax, that is used to add the nested groups of name and value pair of data to documents, that are commonly based on the page content. Microdata is used for new global attributes.
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
